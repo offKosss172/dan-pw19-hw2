@@ -1,0 +1,188 @@
+@import 'variables';
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #4E4E4E;
+}
+.wrapper{
+    width: 100%;
+    max-width: 1170px;
+    display: flex;
+    justify-content: center;
+    background-color: $color-primary;
+    margin: 0 auto;
+}
+.masterfoto__img{
+    width: 100%;
+    height: 0;
+    padding-bottom: 47.01%;
+    background-image: url(../img/firstblock.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.conteiner {
+width: 70%;
+height: 120px;
+vertical-align: sub;
+nav {
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  height: 100%;
+   a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 22px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: color 0.5s ease;
+    }
+    a:hover{
+    color: $color-accent;
+    font-weight: bold;
+    }}
+}
+
+
+h2{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    text-transform: uppercase;
+    margin: 0;
+}
+.resent-post__cardfield{
+    margin-top: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+}
+.resent-post__card{
+    width: 555px;
+    display: flex;
+    box-sizing: border-box;
+
+    h4{
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 30px;
+        margin: 0;}
+    h5{
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 20px;
+        color: $color-secondary;
+        margin: 1px auto 10px;
+        span{
+            margin: 0 20px;
+        }
+    }
+    p{
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 26px;
+        color: #5C5C5C;
+        }
+    }
+
+.resent-post__contant{
+    padding-left: 20px;
+}
+.resent-post__img{
+    width: 160px;
+    height: 140px;
+    background-image: url(../img/resent1.png);
+    background-size: cover;
+    margin-left: 20px;
+}
+.resent-post__card:nth-child(2) .resent-post__img {
+    background-image: url(../img/resent2.png);
+}
+.resent-post__card:nth-child(3) .resent-post__img {
+    background-image: url(../img/resent3.png);
+}
+.resent-post__card:last-child .resent-post__img {
+    background-image: url(../img/resent4.png);
+}
+.resent-post .wrapper{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 60px auto;
+}
+.instagram {
+    background-color: #eae5e5;
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+        background-color: #eae5e5;
+    }
+}
+.instagram__text{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    a{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 22px;
+    text-transform: uppercase;
+    padding: 50px 0 30px;
+    margin: 0;
+    transition: color 0.3s ease;
+    }
+    a:hover{
+        color: $color-accent;
+        font-weight: bold;
+        }
+    h2{
+    padding: 50px 0 30px;  
+    }
+}
+.instagram__foto{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+.instagram__card {
+    width: 24%;
+    position: relative;
+    background-image: url(../img/insta1.png);
+    overflow: hidden;
+    &::before {
+        content: "";
+        display: block;
+        padding-bottom: 100%;
+    }
+    
+    .instagram__img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+    }
+}
+
+.instagram__card:nth-child(2){
+    background-image: url(../img/insta2.png);
+}
+.instagram__card:nth-child(3){
+    background-image: url(../img/insta3.png);
+}
+.instagram__card:nth-child(4){
+    background-image: url(../img/insta4.png);
+}
+
+
+    

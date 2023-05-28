@@ -1,0 +1,42 @@
+
+footer {
+    background-color: black;
+        .wrapper {
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        h2{
+            padding-top: 50px;
+            color: #FEFEFE;
+        }
+        p{
+            width: 80%;
+            max-width: 680px;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 28px;
+            color: #B9B9B9;
+            
+            
+        }
+        .footer__conact-text {
+            padding: 0 20px;
+        }
+        .footer__social-media {
+            margin: 34px auto;
+            a {
+                display: inline-block;
+                width: 34px;
+                height: 34px;
+    
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+
+        }
+        
+    }}

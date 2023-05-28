@@ -1,0 +1,46 @@
+@import 'variables';
+.menuBurger {
+    display: none;
+    width: 30px;
+    height: 20px;
+    position: relative;
+    top: 20px;
+    background-color: #000000;
+    border: 10px solid #000000;
+    span{
+        content: '';
+        background-color: $color-primary;
+        position: absolute;
+        width: 100%;
+        height: 3px;
+        top: 9px;
+        transition: all 0.5s ease 0s;
+    }
+}
+.menuBurger:before, .menuBurger:after{
+    content: '';
+    background-color: $color-primary;
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    left: 0;
+    transition: all 0.5s ease 0s;
+}
+.menuBurger:before{
+    top: 0;
+}
+.menuBurger:after{
+    bottom: 0;
+}
+
+.menuBurger.active:before {
+    transform: rotate(45deg);
+    top: 8px;
+}
+.menuBurger.active:after {
+    transform: rotate(-45deg);
+    bottom: 8px;
+}
+.menuBurger.active span{
+    transform: scale(0);
+}

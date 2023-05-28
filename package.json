@@ -1,0 +1,29 @@
+{
+  "name": "pw19-hw-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.29.3",
+    "del": "^5.1.0",
+    "esm": "^3.2.25",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-clean": "^0.4.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-js-minify": "^0.0.3",
+    "gulp-sass": "^5.1.0",
+    "gulp-uglify": "^3.0.2"
+  },
+  "dependencies": {
+    "sass": "^1.62.1"
+  }
+}
